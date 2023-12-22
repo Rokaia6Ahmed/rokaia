@@ -8,8 +8,8 @@ import csv
 # Opening JSON file and loading the data
 # into the variable data
 
-json_file = open('C:/Users/Microsoft/Desktop/example_2.json')
-data = json.load(json_file)
+js = open('C:/Users/Microsoft/Desktop/example_2.json')
+data = json.load(js)
 
 json_file.close();
 
